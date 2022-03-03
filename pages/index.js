@@ -1,10 +1,11 @@
 import Head from "next/head";
 import Image from "next/image";
+import Navbar from "../components/Navbar";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className="bg-gray-300 h-screen w-full z-0">
       <Head>
         <title>Chiisai</title>
         <meta
@@ -13,9 +14,12 @@ export default function Home() {
         />
         <link rel="icon" href="/Chiisai.png" />
       </Head>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      {/* Navbar */}
+      <Navbar />
+      {/* Logo */}
+
+      {/* Paragraph */}
+      {/* Music Player */}
     </div>
   );
 }
