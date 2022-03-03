@@ -22,10 +22,30 @@ function Navbar() {
           <Button>team</Button>
           <Button>gallery</Button>
           <Button>shop</Button>
-          <img
-            className="flex flex-column justify-center items-center py-1.5 px-4 relative bg-white rounded-md text-black uppercase text-sans text-xs leading-4 font-500 bg-opacity-20 duration-500 hover:bg-opacity-70 tracking-widest"
-            src="../images/icons8-instagram.svg"
-          />
+          <a href="">
+            <img
+              className="flex flex-column justify-center items-center py-1.5 px-4 relative bg-white rounded-md text-black uppercase text-sans text-xs leading-4 font-500 bg-opacity-20 duration-500 hover:bg-opacity-70 tracking-widest shadow-sm"
+              src="../images/icons8-instagram.svg"
+            />
+          </a>
+          <a href="">
+            <img
+              className="flex flex-column justify-center items-center py-1.5 px-4 relative bg-white rounded-md text-black uppercase text-sans text-xs leading-4 font-500 bg-opacity-20 duration-500 hover:bg-opacity-70 tracking-widest shadow-sm"
+              src="../images/icons8-twitter.svg"
+            />
+          </a>
+          <a href="">
+            <img
+              className="flex flex-column justify-center items-center py-1.5 px-4 relative bg-white rounded-md text-black uppercase text-sans text-xs leading-4 font-500 bg-opacity-20 duration-500 hover:bg-opacity-70 tracking-widest shadow-sm"
+              src="../images/OpenSea-icon.svg"
+            />
+          </a>
+          <a href="">
+            <img
+              className="flex flex-column justify-center items-center py-1.5 px-4 relative bg-white rounded-md text-black uppercase text-sans text-xs leading-4 font-500 bg-opacity-20 duration-500 hover:bg-opacity-70 tracking-widest shadow-sm"
+              src="../images/discord.svg"
+            />
+          </a>
         </div>
       </div>
     </div>

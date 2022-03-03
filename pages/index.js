@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="bg-gray-300 h-screen w-full z-0">
       <Head>
-        <title>Chiisai</title>
+        <title>hahaha</title>
         <meta
           name="description"
           content="World's Finest Chibi Collection"
