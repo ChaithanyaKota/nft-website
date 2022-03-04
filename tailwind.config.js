@@ -8,7 +8,7 @@ module.exports = {
     extend: {},
     fontFamily: {
       mono: ["Robot-mono", "monospace"],
-      sans: ["Inter", "sans-serif"],
+      sans: ["Poppins", "sans-serif"],
     },
   },
   plugins: [],
