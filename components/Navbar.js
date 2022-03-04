@@ -14,7 +14,12 @@ function Navbar() {
       <div className="p-8 flex items-center justify-between">
         <div className="">
           <span>
-            <Image src="/logo.svg" width={82} height={28} />
+            <Image
+              src="/logo.svg"
+              alt="Chiisai Logo"
+              width={82}
+              height={28}
+            />
           </span>
         </div>
 
