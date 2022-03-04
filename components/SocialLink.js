@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 function SocialLink() {
   let socialLinks = [

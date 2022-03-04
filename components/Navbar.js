@@ -23,15 +23,12 @@ function Navbar() {
           </span>
         </div>
 
-        <ul className="md:flex md:items-center ">
+        <ul className="md:flex md:items-center">
           {Links.map((link) => (
-            <li
-              key={link.name}
-              className="px-1.5 py-3 text-xs leading-4 font-semibold font-sans tracking-wider"
-            >
+            <li key={link.name} className="">
               <a
                 href={link.link}
-                className="text-black hover:text-teal-600 duration-500"
+                className="text-black hover:text-teal-600 duration-500 px-1.5 py-3 text-xs leading-4 font-semibold font-sans tracking-wider"
               >
                 {link.name}
               </a>
