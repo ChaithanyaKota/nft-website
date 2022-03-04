@@ -14,7 +14,7 @@ function SocialLink() {
         <span>
           <Image
             src={socialLinks.name}
-            alt="Vercel Logo"
+            alt="Social Media Image"
             width={72}
             height={16}
           />
