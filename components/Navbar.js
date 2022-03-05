@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 function Navbar() {
   let Links = [
@@ -13,16 +14,18 @@ function Navbar() {
     <div className="w-full fixed top-0 left-0 font-sans">
       <div className="p-8 flex items-center justify-between">
         <div className="">
-          <a href="/">
-            <span className="items-center">
-              <Image
-                src="/Logo.svg"
-                alt="Chiisai Logo"
-                width={82}
-                height={28}
-              />
-            </span>
-          </a>
+          <Link href="/">
+            <a href="">
+              <span className="items-center">
+                <Image
+                  src="/Logo.svg"
+                  alt="Chiisai Logo"
+                  width={82}
+                  height={28}
+                />
+              </span>
+            </a>
+          </Link>
         </div>
 
         <ul className="md:flex md:items-center space-x-2 text-black">
