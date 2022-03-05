@@ -7,7 +7,7 @@ export default function Home() {
       <Head>
         <title>Chiisai</title>
         <meta name="description" content="Chiisai" />
-        <link rel="icon" href="/chiisai.png" />
+        <link rel="icon" href="/Chiisai.ico" />
       </Head>
       {/* Navbar */}
       <Navbar />
