@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Button from "../components/Button";
 
 function Navbar() {
   let Links = [
@@ -8,10 +9,9 @@ function Navbar() {
     { name: "ROADMAP", link: "/" },
     { name: "TEAM", link: "/" },
     { name: "GALLERY", link: "/" },
-    { name: "SHOP", link: "/" },
   ];
   return (
-    <div className="w-full fixed top-0 left-0 font-sans">
+    <div className="w-full fixed top-0 left-0 font-sans z-20">
       <div className="p-8 flex items-center justify-between">
         <div className="">
           <Link href="/">
@@ -28,7 +28,7 @@ function Navbar() {
           </Link>
         </div>
 
-        <ul className="md:flex md:items-center space-x-2 text-black">
+        <ul className="hidden md:flex md:items-center space-x-2 text-black">
           {Links.map((link) => (
             <li key={link.name} className="">
               <a
@@ -39,6 +39,9 @@ function Navbar() {
               </a>
             </li>
           ))}
+          <a href="https://www.youtube.com" target="_blank">
+            <Button>mint</Button>
+          </a>
           <hr className="rotate-90 h-0.5 w-7 bg-black" />
 
           <li>
@@ -51,7 +54,7 @@ function Navbar() {
                 <Image
                   src="/discord.svg"
                   alt="Social Media Image"
-                  width={72}
+                  width={16}
                   height={16}
                 />
               </span>
@@ -67,7 +70,7 @@ function Navbar() {
                 <Image
                   src="/icons8-twitter.svg"
                   alt="Social Media Image"
-                  width={72}
+                  width={16}
                   height={16}
                 />
               </span>
@@ -83,7 +86,7 @@ function Navbar() {
                 <Image
                   src="/icons8-instagram.svg"
                   alt="Social Media Image"
-                  width={72}
+                  width={16}
                   height={16}
                 />
               </span>
@@ -99,7 +102,7 @@ function Navbar() {
                 <Image
                   src="/OpenSea-icon.svg"
                   alt="Social Media Image"
-                  width={72}
+                  width={16}
                   height={16}
                 />
               </span>
