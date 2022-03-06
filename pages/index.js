@@ -13,7 +13,7 @@ export default function Home() {
       {/* Navbar */}
       <Navbar />
       {/* Logo */}
-      <span className="flex flex-col top-56 relative h-screen w-full px-8 z-10">
+      <span className="flex flex-col top-56 relative w-full px-8 z-10">
         <Image
           src="/ChiisaiBig.svg"
           alt="Social Media Image"
@@ -24,6 +24,9 @@ export default function Home() {
       </span>
 
       {/* Paragraph */}
+      <p>PLAY SOME MUSIC.</p>
+      <p> EXPLORE THE COLLECTION.</p>
+      <p>BECOME A PART OF THE JOURNEY.</p>
 
       {/* Music Player */}
     </div>

@@ -39,7 +39,10 @@ function Navbar() {
               </a>
             </li>
           ))}
-          <a href="https://www.youtube.com" target="_blank">
+          <a
+            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            target="_blank"
+          >
             <Button>mint</Button>
           </a>
           <hr className="rotate-90 h-0.5 w-7 bg-black" />
@@ -54,8 +57,8 @@ function Navbar() {
                 <Image
                   src="/discord.svg"
                   alt="Social Media Image"
-                  width={16}
-                  height={16}
+                  width={20}
+                  height={20}
                 />
               </span>
             </a>
@@ -70,8 +73,8 @@ function Navbar() {
                 <Image
                   src="/icons8-twitter.svg"
                   alt="Social Media Image"
-                  width={16}
-                  height={16}
+                  width={20}
+                  height={20}
                 />
               </span>
             </a>
@@ -86,8 +89,8 @@ function Navbar() {
                 <Image
                   src="/icons8-instagram.svg"
                   alt="Social Media Image"
-                  width={16}
-                  height={16}
+                  width={20}
+                  height={20}
                 />
               </span>
             </a>
@@ -102,8 +105,8 @@ function Navbar() {
                 <Image
                   src="/OpenSea-icon.svg"
                   alt="Social Media Image"
-                  width={16}
-                  height={16}
+                  width={20}
+                  height={20}
                 />
               </span>
             </a>
